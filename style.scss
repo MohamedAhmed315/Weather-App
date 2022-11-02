@@ -1,0 +1,39 @@
+body {
+    background-image: url(/img/bg.jpg);
+    background-color: rgb(58, 60, 63);
+
+    h1 {
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    h6,
+    #status {
+        text-transform: capitalize;
+    }
+
+    .card {
+        position: relative;
+        display: none;
+
+        .img-container {
+            position: absolute;
+            height: 100px;
+            width: fit-content;
+            right: 0;
+
+            img {
+                width: auto;
+            }
+        }
+
+        .card-title {
+            text-transform: capitalize;
+        }
+
+        #lon,
+        #lat {
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+body {
+  background-image: url(/img/bg.jpg);
+  background-color: rgb(58, 60, 63);
+}
+body h1 {
+  text-transform: capitalize;
+  color: #fff;
+}
+body h6,
+body #status {
+  text-transform: capitalize;
+}
+body .card {
+  position: relative;
+  display: none;
+}
+body .card .img-container {
+  position: absolute;
+  height: 100px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  right: 0;
+}
+body .card .img-container img {
+  width: auto;
+}
+body .card .card-title {
+  text-transform: capitalize;
+}
+body .card #lon,
+body .card #lat {
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
